@@ -17,6 +17,7 @@ function nowServing(queue){
 }
 
 function currentLine(queue){
+<<<<<<< HEAD
   var lineLength = queue.length;
   if(lineLength > 0){
     var message = "The line is currently: ";
@@ -31,5 +32,14 @@ function currentLine(queue){
   }
   else{
     return "The line is currently empty.";
+=======
+  if(queue.length > 0){
+    var message = "Currently serving " + queue[0] + ".";
+    queue.shift();
+    return message;
+  }
+  else{
+    return "There is nobody waiting to be served!";
+>>>>>>> 4d8282e4207176e41580579c653d623ab61bcf2b
   }
 }
