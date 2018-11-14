@@ -1,5 +1,6 @@
-function takeANumber(queue, name){
-  var position = queue.length + 1;
+function takeANumber(queue){
+  var queuelength = queue.length;
+  var position = queue[] + 1;
   var message = "Welcome, " + name + ". You are number " + position + " in line.";
   queue.push(name);
   return message;
