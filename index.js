@@ -7,7 +7,7 @@ function takeANumber(queue, name){
 
 function nowServing(queue){
   if(queue.length > 0){
-    var message = "Currently serving " + queue.shift() + ".";
+    var message = "Currently serving " + queue[0] + ".";
     queue.shift();
     return message;
   }
