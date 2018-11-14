@@ -1,7 +1,6 @@
 var position = 0;
 
 function takeANumber(){
-  
   var newCustomersNumber = position + 1;
   var message = "Welcome. You are number " + newCustomersNumber + " in line.";
   queue.push(newCustomersNumber);
