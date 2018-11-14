@@ -34,7 +34,7 @@ function currentLine(queue){
   }
 }
 
-queue = ["Vicky"]
+let queue = ["Vicky"]
 takeANumber(queue, "Jessica")
 nowServing(queue)
 currentLine(queue)
