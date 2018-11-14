@@ -17,7 +17,6 @@ function nowServing(queue){
 }
 
 function currentLine(queue){
-<<<<<<< HEAD
   var lineLength = queue.length;
   if(lineLength > 0){
     var message = "The line is currently: ";
@@ -34,3 +33,8 @@ function currentLine(queue){
     return "The line is currently empty.";
   }
 }
+
+queue = ["Vicky"]
+takeANumber(queue, "Jessica")
+nowServing(queue)
+currentLine(queue)
