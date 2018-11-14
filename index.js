@@ -35,6 +35,6 @@ function currentLine(queue){
 }
 
 let queue = ["Vicky"]
-takeANumber(queue, "Jessica")
-nowServing(queue)
-currentLine(queue)
+console.log(takeANumber(queue, "Jessica"))
+console.log(nowServing(queue))
+console.log(currentLine(queue))
