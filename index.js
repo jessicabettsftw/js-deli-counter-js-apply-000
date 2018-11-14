@@ -2,9 +2,10 @@ var position = 0;
 
 function takeANumber(){
   
-  var newCustomersNumber = prevCustNum + 1;
+  var newCustomersNumber = position + 1;
   var message = "Welcome. You are number " + newCustomersNumber + " in line.";
   queue.push(newCustomersNumber);
+  position++;
   return message;
 }
 
@@ -37,7 +38,6 @@ function currentLine(queue){
   }
 }
 
-let queue = []
-console.log(takeANumber(queue))
+console.log(takeANumber())
 console.log(nowServing(queue))
 console.log(currentLine(queue))
