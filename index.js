@@ -39,5 +39,7 @@ function currentLine(queue){
 
 let queue = []
 console.log(takeANumber(queue))
+console.log(takeANumber(queue))
+console.log(takeANumber(queue))
 console.log(nowServing(queue))
 console.log(currentLine(queue))
